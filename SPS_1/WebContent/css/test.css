@@ -1,0 +1,85 @@
+body {
+    background-color: ghostwhite;
+}
+
+.info {
+    border-bottom: 1px solid blue;
+    font-size: 30px;
+    margin: 55px auto;
+    width: 90%;
+}
+
+.info h3{
+    text-align: center;
+}
+
+
+.info a {
+    color: rgb(71, 90, 81);
+    text-decoration: none;
+    margin: 10px auto;
+}
+
+
+
+.preguntas h3 {
+    color: rgb(106, 124, 148);
+    font-size: 25px;
+    margin: 15px 0px 40px 0px;
+    text-align: center;
+}
+
+.preguntas p {
+    background-color: rgb(242, 224, 185);
+    border-radius: 8px;
+    color: rgb(71, 90, 81);
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    min-width: 450px;
+    max-width: 550px;
+}
+
+.preguntas div {
+    display: none;
+}
+
+.preguntas p:hover {
+    background-color: lightgray;
+}
+
+
+.preguntas {
+    height: 400px;
+    position: relative;
+}
+
+.recomendacion h3 {
+    color: brown;
+}
+
+.recomendacion p {
+    color: darkslategray;
+}
+
+
+#rNegativa, #rMedia, #rPositiva {
+    background-color: ghostwhite;
+    box-shadow: 5px 5px 10px cornflowerblue;
+    color: darkslategray;
+    display: none;
+    font-size: 20px;
+    margin: 10px 300px;
+    padding: 17px;
+    text-align: center;
+}
+
+#empezar {
+    color: rgb(106, 124, 143);
+    text-align: center;
+    text-decoration: none;
+}
+
+#empezar:hover {
+    color: rgb(64, 80, 141);
+}

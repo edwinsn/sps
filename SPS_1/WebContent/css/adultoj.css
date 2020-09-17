@@ -1,0 +1,141 @@
+body {
+    background-color: ghostwhite;
+}
+
+
+.info .contenedor-icon{
+    border: 1px solid none;
+    margin: 20px auto;
+    width: 250px;
+}
+
+.info .icono0 {
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+}
+
+.info p {
+    color: darkslategray;
+    font-size: 18px;
+    margin: 15px auto;
+    text-align: center;
+    width: 60%;
+}
+
+.contenedor h1{
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ejercicios {
+    border-top: 2px solid blue;
+    margin: 0 auto;
+    width: 95%;
+}
+
+
+.ejercicios .preg{
+    background-color: gainsboro;
+    display: block;
+    height: 250px;
+    margin: 130px auto;
+    position: relative;
+    transition-property: height;
+    transition-duration: 4s;
+    transition-timing-function: ease-out;
+    width: 450px;
+}
+
+
+.ejercicios .icono1{
+    height: 220px;
+    margin: 15px 15px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 5s;
+    width: 420px;
+}
+
+.ejercicios h3 {
+    color: saddlebrown;
+    font-size: 26px;
+    margin: 25px 130px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+}
+
+.ejercicios h4 {
+    color: black;
+    left: 60px;
+    font-size: 18px;
+    margin: 15px auto;
+    position: absolute;
+    text-align: center;
+    top: 105px;
+    visibility: hidden;
+    width: 80%;
+}
+
+.ejercicios h5{
+    color: saddlebrown;
+    display: inline-block;
+    font-size: 15px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 4s;
+    margin: 20px 0px 8px 13px;
+}
+
+.ejercicios h6{
+    float: right;
+    right: 5px;
+    border-bottom: 1px solid blue;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 4s;
+    margin: 25px 15px 0px 0px;
+}
+
+.ejercicios p{
+    display: none;
+    margin: 5px 13px;
+}
+
+
+/*Efeco Hover Principal*/
+
+.preg:hover{
+    background-color: gainsboro;
+    height: 775px;
+}
+
+.preg:hover h4{
+    visibility: visible;
+}
+
+/*Efecto Hover Segundario*/
+
+.preg:hover .icono1{
+    opacity: 0.3;
+}
+
+.preg:hover h5{
+    opacity: 1;
+}
+
+.preg:hover h6{
+    opacity: 1;
+}
+
+.preg:hover p{
+    display: block;  
+}
+
+
+
+

@@ -1,0 +1,78 @@
+body {
+    background-color:gainsboro;
+   
+}
+
+header {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid deepskyblue;
+    background-color: lightblue;
+}
+
+.formulario {
+    background-color: gainsboro;
+    width: 470px;
+    margin: 20px auto;
+}
+
+.icon {
+    height: 74px;
+    width: 110px;
+}
+
+.contenedor-user {
+    border-radius: 5px;
+    font-size: 15px;
+    width: 45%;
+    padding: 7px;
+    margin: 4px 0px;
+}
+
+.contenedor-correo {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px;
+    margin: 20px 0px;
+    width: 90%;
+    display: block;
+}
+
+.contenedor-numero {
+    display: inline;
+    padding: 4px;
+    margin-right: 1px;
+}
+
+#registrarse {
+    background-color: lightblue;
+    color: white;
+    border: 1px solid deepskyblue;
+    border-radius: 8px;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    margin: 55px 0px;
+    width: 40%;
+}
+
+#registrarse:hover {
+   background-color: cadetblue;
+}
+
+.condiciones {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+
+h3 {
+	color: rgb(71, 90, 81);
+    margin: 25px 0px;
+}
+
+p {
+    color: dimgray;
+    font-size: 18px;
+    margin: 13px 0px;
+}

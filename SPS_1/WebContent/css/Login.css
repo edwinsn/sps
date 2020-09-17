@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.formulario {
+    min-width: 300px;
+    max-width: 400px;
+    background-color: gainsboro;
+    padding: 70px 34px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+.contenedor {
+    background-color:gainsboro;
+    width: 100%;
+    padding:0px 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.contenedor-input {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.icono1 {
+    height: 140px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    padding-left: 95px;
+    display: inline-block;
+    text-align: center;
+}
+
+.icono2 {
+    min-width: 10px;
+    float: left;
+    margin: 10px;
+}
+
+.boton-registrar{
+    margin-top: 15px;
+}
+
+#validarusuario {
+    margin: 10px 0px;
+    width: 100%;
+    color: whitesmoke;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 1px solid deepskyblue;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#validarusuario:hover {
+    background-color: cadetblue;
+}
+
+#usuarioin{
+    margin-top:10px;
+    color:orange;
+}
+
+p #login {
+    border:1px solid blue;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+@media(min-width:600px) {
+}

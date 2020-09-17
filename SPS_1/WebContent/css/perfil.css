@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.contenedor {
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 40px 0 0 0px;
+    width: 44%;
+}
+
+.contenedor div{
+    display: inline-block;
+    margin: 0 10px 0 18px;
+    width: 235px;
+}
+
+.contenedor .enviar {
+    background-color: lightblue;
+    border: 1px solid deepskyblue;
+    color: white;
+    display: block;
+    font-size: 16px;
+    margin: 110px 0px 50px 30px;
+}
+
+.contenedor .enviar:hover {
+    background-color: cadetblue;
+}
+
+.contenedor input {
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 3px solid skyblue;
+    border-radius: 5px;
+    display: inline;
+    font-size: 14px;
+    margin: 15px 0 35px 0;
+    padding: 7px;
+    width: 230px ;
+}
+
+.contenedor .numero {
+    background-color: aliceblue;
+    border-bottom: 3px solid skyblue;
+    border-radius: 5px;
+    display: block;
+    font-size: 17px;
+    padding: 7px;
+    margin: 15px 0;
+    width: 230px;
+}
+
+.contenedor p {
+    color: rgb(106, 124, 148);
+    font-size: 18px;
+    margin-right: 171px;
+}
+
+
+.formulario h3 {
+    color: darkolivegreen;
+    border: 1px solid Highlight;
+    font-size: 28px;
+    margin: 0 auto;
+    padding: 25px 0px 5px 0;
+    text-align: center;
+    width: 44%;
+}
+
+
+
+

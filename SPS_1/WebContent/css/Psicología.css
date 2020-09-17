@@ -1,0 +1,80 @@
+body {
+    background-color: ghostwhite !important;
+    text-align: center;
+    
+}
+
+/*Parte Texto*/
+
+.psicologia h3 {
+    color: rgb(71, 90, 81);;
+    font-size: 26px;
+    margin: 25px;
+}
+
+.psicologia p {
+    color: darkslategray;
+    font-size: 18px;
+    margin: 15px auto;
+    text-align: center;
+    width: 60%;
+}
+
+/*Paret Escoger*/
+
+
+.escoger {
+    border-top: 1px solid blue;
+    color: cadetblue;
+    font-size: 21px;
+    height: 500px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.escoger .test{
+    background-color: gainsboro;
+    border: 1px solid none;
+    display: inline-block;
+    height: 320px;
+    width: 380px;
+    margin: 30px 10px 50px 10px;
+}
+
+.escoger h5{
+    font-size: 22px;
+}
+
+.escoger .icono_p{
+    margin: 20px 0px;
+    height: 200px;
+    width: 350px;
+}
+
+/*Escoger Test Coronavirus*/
+
+.escoger .test:hover .icono{
+    filter: blur(5px);
+}
+
+.escoger .test:hover{
+    height: 420px;
+}
+
+.escoger .test:hover p{
+    visibility: visible;
+}
+
+.test p{
+    color: darkslategray;
+    font-size: 18px;
+    margin: 15px 0px;
+    text-align: center;
+    visibility: hidden;
+    width: 380px;
+}
+
+
+
+
+
