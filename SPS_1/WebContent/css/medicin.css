@@ -1,0 +1,196 @@
+@charset "ISO-8859-1";
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Opciones de Cita*/
+
+main {
+    background-color: rgb(243, 243, 243);
+    height: 100%;
+    text-align: center;
+    width: 33%;
+}
+
+main h3:focus{  
+	background-color: red;
+}
+
+main .icono {
+    background-color: rgb(255, 234, 58);
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: 15%;
+    margin: 45px auto;
+    padding: 20px;
+    width: 35%;
+}
+
+main h3 {
+    background-color: rgb(255, 234, 58);
+    border-radius: 8px;
+    bottom: 30px;
+    color: blue;
+    margin: 0px auto;
+    padding: 5px;
+    position: relative;
+    text-aling: center;
+    text-decoration: none;
+    width: 60%;
+}
+
+main .escoger_opcion{
+	padding: 5px;
+}
+
+/*Editar y Programar Cita*/
+
+.contenedor{
+	background-color: ghostwhite;
+	display: flex;
+	width: 100%;
+}
+
+.contenedor .programar_editar_cita{
+	height: 100%;
+	padding-top: 45px;
+	width: 67%;
+}
+
+
+/*Editar Cita*/
+
+.contenedor .editar_cita{
+	display:none;
+    padding: 15px;
+    width: 100%;
+}
+
+.editar_cita h3{
+	border-bottom: 1px solid gold;
+	color: rgb(3, 151, 214);
+	font-size: 30px;
+	padding: 10px 25px;
+	margin: 20px 0;
+	width: 300px;
+}
+
+.editar_cita h5{
+	color: rgb(136, 100, 160);
+	font-size: 23px;
+	padding: 3px 26px;
+}
+
+.editar_cita input{
+	background-color: lightblue;
+	border: 1px solid deepskyblue;
+	color: white;
+	font-size: 18px;
+	margin: 55px 30px;
+	padding: 8px 35px;
+}
+
+.editar_cita input:active{
+	margin: 65px 35px;
+}
+
+.editar_cita p{
+	font-size: 19px;
+	padding: 20px 25px;
+}
+
+
+/*Programar Cita*/
+
+.contenedor .programar_cita {
+	display: flex;
+	flex-wrap: wrap;
+    width: 100%;
+}
+
+.programar_cita .escoger_dia{
+	border: 1px solid blue;
+	width: 100%;
+}
+
+.escoger_dia .h {
+    color: black !important;
+}
+
+.escoger_dia p {
+    background-color: gold;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    padding: 25px 4px;
+    text-align: center;
+    width: 12%;
+}
+
+p:active, .horas p:active{
+	color:blue;
+}
+
+.escoger_dia .siguiente hover{
+	color:blue;
+}
+
+
+.programar_cita .info_cita {
+    background-color: azure;
+    border: 1px solid deepskyblue;
+    width: 62%;
+}
+
+.info_cita input[type="submit"]{
+	background-color: lightblue;
+	border: 1px solid deepskyblue;
+	border-radius: 10px;
+	color: white;
+	float: right;
+	font-size: 18px;
+	padding: 5px 55px;
+}
+
+.info_cita p {
+    font-size: 20px;
+    margin: 40px 21px;
+}
+.programar_cita .escoger_hora{
+	width: 37%;
+}
+
+.escoger_hora p{
+    background-color: lightblue;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+    margin: 7px;
+    width: 100%%;
+}
+
+
+
+.programar{
+	top: 150px;
+    text-align: right;
+
+}
+
+.programar p:hover{
+	color:blue;
+}
+
+.oculto{
+	display:none;	
+}
+
+.ci{
+	display:none;
+    height: 100%;
+    position: relative;
+}

@@ -1,0 +1,80 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+
+header {
+    background-color: lightblue;
+    border: 1px solid deepskyblue;
+    height: 110px;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.icon{
+    height:78px;
+    width:110px;
+}
+
+
+#b-tareas{
+    list-style:none;
+}
+
+#b-tareas > ul{
+    float: right;
+    width:155px;
+}
+
+#b-tareas > ul > li{
+    list-style:none;
+    display:inline-block;
+    border-radius:8px;
+    position:relative;
+    bottom: 55px;
+}
+
+#b-tareas > ul > li > a{
+    text-decoration: none !important;
+    font-size:25px;
+    padding: 5px;
+}   
+    
+#b-tareas li ul {
+    list-style: none;
+    text-align: center;
+    width: 210px;
+    position: absolute;
+    right:45%; 
+    top: 40px;
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s linear;
+    -moz-transition: max-height 0.4s linear;
+}
+
+#b-tareas li:hover ul{
+    max-height: 500px;
+    background-color: cadetblue;
+}
+
+#b-tareas li ul li{
+    border: 1px solid deepskyblue;
+    background-color: lightblue;
+}
+
+#b-tareas li ul li a{
+    padding: 12px;
+    color: whitesmoke !important;
+    text-decoration: none !important;
+    display: block;
+    border-bottom: 1px solid black;
+}
+
+#b-tareas li ul li a:hover{
+    background-color: cadetblue;
+}
